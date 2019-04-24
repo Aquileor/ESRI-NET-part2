@@ -13,6 +13,7 @@ using Esri.ArcGISRuntime.Security;
 using Esri.ArcGISRuntime.Symbology;
 using Esri.ArcGISRuntime.Tasks;
 using Esri.ArcGISRuntime.UI;
+using Esri.ArcGISRuntime.Portal;
 
 namespace Add_a_layer_from_an_item
 {
@@ -23,7 +24,24 @@ namespace Add_a_layer_from_an_item
     {
         public MapViewModel()
         {
+            InitializeMap();
 
+        }
+
+        private async void InitializeMap()
+        {
+            ArcGISPortal portal = await ArcGISPortal.CreateAsync();
+
+            string portalItemId = "883cedb8c9fe4524b64d47666ed234a7";
+
+            PortalItem portalItem = await PortalItem.CreateAsync(portal, portalItemId);
+
+            FeatureLayer layer = new FeatureLayer(portalItem, 0);
+
+            await layer.LoadAsync();
+            Map = new Map(Basemap.CreateTopographic()) { InitialViewpoint = new Viewpoint(layer.FullExtent) };
+
+            Map.OperationalLayers.Add(layer);
         }
 
         private Map _map = new Map(Basemap.CreateStreets());
