@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.438
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Add a layer from an item", "Add a layer from an item\Add a layer from an item.csproj", "{7C10D2D8-8D0A-484F-B24C-F6B2A05B007A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Display a styled vector basemap", "Display a styled vector basemap\Display a styled vector basemap.csproj", "{73F59CFD-2F81-4FEF-A7EF-5F4AB49B5165}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -41,6 +43,30 @@ Global
 		{7C10D2D8-8D0A-484F-B24C-F6B2A05B007A}.Release|x86.ActiveCfg = Release|x86
 		{7C10D2D8-8D0A-484F-B24C-F6B2A05B007A}.Release|x86.Build.0 = Release|x86
 		{7C10D2D8-8D0A-484F-B24C-F6B2A05B007A}.Release|x86.Deploy.0 = Release|x86
+		{73F59CFD-2F81-4FEF-A7EF-5F4AB49B5165}.Debug|ARM.ActiveCfg = Debug|ARM
+		{73F59CFD-2F81-4FEF-A7EF-5F4AB49B5165}.Debug|ARM.Build.0 = Debug|ARM
+		{73F59CFD-2F81-4FEF-A7EF-5F4AB49B5165}.Debug|ARM.Deploy.0 = Debug|ARM
+		{73F59CFD-2F81-4FEF-A7EF-5F4AB49B5165}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{73F59CFD-2F81-4FEF-A7EF-5F4AB49B5165}.Debug|ARM64.Build.0 = Debug|ARM64
+		{73F59CFD-2F81-4FEF-A7EF-5F4AB49B5165}.Debug|ARM64.Deploy.0 = Debug|ARM64
+		{73F59CFD-2F81-4FEF-A7EF-5F4AB49B5165}.Debug|x64.ActiveCfg = Debug|x64
+		{73F59CFD-2F81-4FEF-A7EF-5F4AB49B5165}.Debug|x64.Build.0 = Debug|x64
+		{73F59CFD-2F81-4FEF-A7EF-5F4AB49B5165}.Debug|x64.Deploy.0 = Debug|x64
+		{73F59CFD-2F81-4FEF-A7EF-5F4AB49B5165}.Debug|x86.ActiveCfg = Debug|x86
+		{73F59CFD-2F81-4FEF-A7EF-5F4AB49B5165}.Debug|x86.Build.0 = Debug|x86
+		{73F59CFD-2F81-4FEF-A7EF-5F4AB49B5165}.Debug|x86.Deploy.0 = Debug|x86
+		{73F59CFD-2F81-4FEF-A7EF-5F4AB49B5165}.Release|ARM.ActiveCfg = Release|ARM
+		{73F59CFD-2F81-4FEF-A7EF-5F4AB49B5165}.Release|ARM.Build.0 = Release|ARM
+		{73F59CFD-2F81-4FEF-A7EF-5F4AB49B5165}.Release|ARM.Deploy.0 = Release|ARM
+		{73F59CFD-2F81-4FEF-A7EF-5F4AB49B5165}.Release|ARM64.ActiveCfg = Release|ARM64
+		{73F59CFD-2F81-4FEF-A7EF-5F4AB49B5165}.Release|ARM64.Build.0 = Release|ARM64
+		{73F59CFD-2F81-4FEF-A7EF-5F4AB49B5165}.Release|ARM64.Deploy.0 = Release|ARM64
+		{73F59CFD-2F81-4FEF-A7EF-5F4AB49B5165}.Release|x64.ActiveCfg = Release|x64
+		{73F59CFD-2F81-4FEF-A7EF-5F4AB49B5165}.Release|x64.Build.0 = Release|x64
+		{73F59CFD-2F81-4FEF-A7EF-5F4AB49B5165}.Release|x64.Deploy.0 = Release|x64
+		{73F59CFD-2F81-4FEF-A7EF-5F4AB49B5165}.Release|x86.ActiveCfg = Release|x86
+		{73F59CFD-2F81-4FEF-A7EF-5F4AB49B5165}.Release|x86.Build.0 = Release|x86
+		{73F59CFD-2F81-4FEF-A7EF-5F4AB49B5165}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
