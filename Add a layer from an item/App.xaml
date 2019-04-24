@@ -1,0 +1,8 @@
+﻿<Application
+    x:Class="Add_a_layer_from_an_item.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Add_a_layer_from_an_item"
+    RequestedTheme="Light">
+
+</Application>
