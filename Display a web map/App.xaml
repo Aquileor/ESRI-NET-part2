@@ -1,0 +1,8 @@
+﻿<Application
+    x:Class="Display_a_web_map.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Display_a_web_map"
+    RequestedTheme="Light">
+
+</Application>
